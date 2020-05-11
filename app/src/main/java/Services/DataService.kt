@@ -8,7 +8,7 @@ object DataService {
         Category("SHIRTS", "shirtimage"),
         Category("HOODIES", "hoodieimage"),
         Category("HATS", "hatimage"),
-        Category("DIGITAL", "digitalimage"))
+        Category("DIGITAL", "digitalgoodsimage"))
 
 
     val hats= listOf (
@@ -32,6 +32,10 @@ object DataService {
         Product("Devslopes Logo shirt red","$38","shirt3"),
         Product("Devslopes Hustle","$22","shirt4"),
         Product("Devslopes Studios","$18","shirt5"))
+
+    val digital= listOf(
+        Product("Devslopes digital goodies","$40","digitalgoodsimage")
+    )
 
 
 
